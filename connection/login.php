@@ -14,12 +14,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($result->num_rows == 1) {
         $_SESSION["username"] = $username;
-        header("Location: ../project/info.php");
+        header("Location: info.php");
     } else {
         $_SESSION["login_error"] = "Invalid username or password";
-        header("Location: ../project/loginform.html");
+        header("Location: ../project/login.php");
     }
 } else {
-    header("Location: ../html/loginform.html");
+    header("Location: login.php");
 }
 ?>

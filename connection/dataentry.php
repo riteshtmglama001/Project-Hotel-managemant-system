@@ -14,12 +14,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST["username"];
     $password = $_POST["password"];
 
-    $sql = "INSERT INTO groupc (firstname, lastname, phone, gender, address, username, password)
+    $sql = "INSERT INTO grouph (firstname, lastname, phone, gender, address, username, password)
     VALUES ('$firstname', '$lastname', '$phone', '$gender', '$address', '$username', '$password')";
 
     if ($conn->query($sql) === TRUE) {
         echo "New record created successfully";
-        header("Location: ../project/loginform.html");
+        header("Location: ../project/login.php");
 
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
