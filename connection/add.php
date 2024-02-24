@@ -11,7 +11,7 @@
 
 
   .signup h1{
-    color: orangered;
+    color: darkcyan;
     padding: 15px;
   }
   
