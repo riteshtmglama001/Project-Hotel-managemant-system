@@ -27,6 +27,7 @@
     <input type="number" name="Pas"><br><br>
     <button type="submit">Sign Up</button>
 </form>
+<input type="text" name="your">
 
 </body>
 </html>
