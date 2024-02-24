@@ -8,7 +8,7 @@
 </head>
 <body>
 <center>
-        <form action="../php/dataentry.php" method="post" class="signup">
+        <form action="../connection/dataentry.php" method="post" class="signup">
             <h1>Fill The Form</h1><br>
 
             <level>First Name</level><br>

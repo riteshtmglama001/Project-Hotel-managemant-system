@@ -8,7 +8,7 @@
 </head>
 <body>
 <div class="login">
-        <form action="../php/login.php" method="post" class="loginform">
+        <form action="../connection/login.php" method="post" class="loginform">
             <br><level>Login In</level><br><br><br>
             <span>Username</span><br><br>
             <input type="text" name="username" placeholder="Enter your username" required id="username"><br>
