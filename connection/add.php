@@ -90,7 +90,6 @@
 <center>
         <form action="dataentry.php" method="post" class="signup">
             <h1>Add new data</h1><br>
-
             <level>First Name</level><br>
             <input type="text" placeholder="Enter your first name" name="firstname"><br>
             <level>Last Name</level><br>

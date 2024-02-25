@@ -149,8 +149,8 @@ if (isset($_GET['id'])) {
             <span>Username</span><br><input type="text" name="username" value="<?php echo $username; ?>"  required><br><br>
             <span>Password</span><br><input type="password" name="password" value="<?php echo $password; ?>" required><br><br>
             <input type="submit" value="update" name="update" id="submit">
-          <!-- </fieldset> -->
-        </form>
+        <!--  </fieldset> -->
+        </form> 
 </center>
 
     <?php
