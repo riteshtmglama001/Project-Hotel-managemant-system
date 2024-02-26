@@ -56,16 +56,16 @@ body{
             <table class="table1" border="1">
                 <thead>
                   <tr>
-                    <th scope="col" style="background-color:orangered; color:white; padding:10px;">Id</th>
-                    <th scope="col" style="background-color:orangered; color:white; padding:10px;">First Name</th>
-                    <th scope="col" style="background-color:orangered; color:white; padding:10px;">Last Name</th>
-                    <th scope="col" style="background-color:orangered; color:white; padding:10px;">Phone</th>
-                    <th scope="col" style="background-color:orangered; color:white; padding:10px;">Gender</th>
-                    <th scope="col" style="background-color:orangered; color:white; padding:10px;">Address</th>
-                    <th scope="col" style="background-color:orangered; color:white; padding:10px;">Username</th>
-                    <th scope="col" style="background-color:orangered; color:white; padding:10px;">Password</th>
+                    <th scope="col" style="background-color:darkgray; color:white; padding:10px;">Id</th>
+                    <th scope="col" style="background-color:darkgray; color:white; padding:10px;">First Name</th>
+                    <th scope="col" style="background-color:darkgray; color:white; padding:10px;">Last Name</th>
+                    <th scope="col" style="background-color:darkgray; color:white; padding:10px;">Phone</th>
+                    <th scope="col" style="background-color:darkgray; color:white; padding:10px;">Gender</th>
+                    <th scope="col" style="background-color:darkgray; color:white; padding:10px;">Address</th>
+                    <th scope="col" style="background-color:darkgray; color:white; padding:10px;">Username</th>
+                    <th scope="col" style="background-color:darkgray; color:white; padding:10px;">Password</th>
                     <th scope="col" style="background-color:green;">Edit</th>
-                    <th scope="col" style="background-color:red;">Delete</th>
+                    <th scope="col" style="background-color:green;">Delete</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -108,7 +108,7 @@ body{
               </table>
               <center>
               <a href="info.php"><button id="hero" style="cursor:pointer; padding:10px;
-              width:80px;border-radius:150px;font-size:20px; margin-top:60px;background-color:orangered;color:white;
+              width:80px;border-radius:150px;font-size:20px; margin-top:60px;background-color:darkgray;color:white;
               ">Add</button></a>
               </center>
         </div>
