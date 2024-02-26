@@ -107,7 +107,7 @@
             <level>Confirm Password</level><br>
             <input type="password" placeholder="Confirm your password" name="password"><br>
 
-            <a href=""><button type="submit" id="btn1">Sign Up</button></a>
+            <a href="edit.php"><button type="submit" id="btn1">Sign Up</button></a>
 
         </form>
     </center> 

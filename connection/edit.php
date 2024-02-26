@@ -137,7 +137,7 @@ if (isset($_GET['id'])) {
 
 <center>
 
-        <form action="" method="POST" id="adddata">
+        <form action="../edid.php" method="POST" id="adddata">
           <!-- <fieldset> -->
             <input type="hidden" name="id" value="<?php echo $id; ?>">
             <h2 style="color:orangered; margin-top:10px;margin-bottom:10px;">Update Your Form</h2>
