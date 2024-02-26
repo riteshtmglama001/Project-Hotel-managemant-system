@@ -84,8 +84,6 @@ body{
 </style>
 </head>
 <body>
-
-
 </body>
 </html>
 
@@ -134,8 +132,7 @@ if (isset($_GET['id'])) {
             $password = $row['password'];
         }
     ?>
-
-<center>
+ <center>
 
         <form action="../edit.php" method="POST" id="adddata">
           <fieldset> 
@@ -152,7 +149,6 @@ if (isset($_GET['id'])) {
         </fieldset>
         </form> 
 </center>
-
     <?php
     } else{
         header('Location: info.php');

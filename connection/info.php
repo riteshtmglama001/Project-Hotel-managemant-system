@@ -107,7 +107,7 @@ body{
                 </tbody>
               </table>
               <center>
-              <a href="info.php"><button id="hero" style="cursor:pointer; padding:10px;
+              <a href="add.php"><button id="hero" style="cursor:pointer; padding:10px;
               width:80px;border-radius:150px;font-size:20px; margin-top:60px;background-color:darkgray;color:white;
               ">Add</button></a>
               </center>
