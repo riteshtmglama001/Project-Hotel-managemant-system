@@ -137,8 +137,8 @@ if (isset($_GET['id'])) {
 
 <center>
 
-        <form action="../edid.php" method="POST" id="adddata">
-          <!-- <fieldset> -->
+        <form action="../edit.php" method="POST" id="adddata">
+          <fieldset> 
             <input type="hidden" name="id" value="<?php echo $id; ?>">
             <h2 style="color:orangered; margin-top:10px;margin-bottom:10px;">Update Your Form</h2>
             <span>First Name</span> <br><input type="text" name="firstname" value="<?php echo $firstname; ?>" required><br><br>
@@ -149,7 +149,7 @@ if (isset($_GET['id'])) {
             <span>Username</span><br><input type="text" name="username" value="<?php echo $username; ?>"  required><br><br>
             <span>Password</span><br><input type="password" name="password" value="<?php echo $password; ?>" required><br><br>
             <input type="submit" value="update" name="update" id="submit">
-        <!--  </fieldset> -->
+        </fieldset>
         </form> 
 </center>
 
