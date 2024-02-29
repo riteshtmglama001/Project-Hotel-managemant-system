@@ -96,7 +96,6 @@ mysqli_select_db($conn, "grouphdb");
     if (isset($_POST['update'])) {
         $Id = $_POST['id'];
         $firstname = $_POST['firstname'];
-        echo $firstname;
         $lastname = $_POST['lastname'];
         $phone = $_POST['phone'];
         $gender = $_POST['gender'];
@@ -134,8 +133,8 @@ if (isset($_GET['id'])) {
     ?>
  <center>
 
-        <form action="../edit.php" method="POST" id="adddata">
-          <fieldset> 
+        <form action="../edit.php" method="POST" id="add">
+        <fieldset> 
             <input type="hidden" name="id" value="<?php echo $id; ?>">
             <h2 style="color:orangered; margin-top:10px;margin-bottom:10px;">Update Your Form</h2>
             <span>First Name</span> <br><input type="text" name="firstname" value="<?php echo $firstname; ?>" required><br><br>
@@ -146,6 +145,7 @@ if (isset($_GET['id'])) {
             <span>Username</span><br><input type="text" name="username" value="<?php echo $username; ?>"  required><br><br>
             <span>Password</span><br><input type="password" name="password" value="<?php echo $password; ?>" required><br><br>
             <input type="submit" value="update" name="update" id="submit">
+            <a href="info.php"></a>
         </fieldset>
         </form> 
 </center>
